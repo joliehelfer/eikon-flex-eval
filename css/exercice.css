@@ -44,14 +44,38 @@
 }
 
 /* 5. exercice-5 */
-
+.exercice-5 .container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
 /* 6. exercice-6 */
-
+.exercice-6 .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-end;
+  align-content: space-between;
+}
 /* 7. exercice-7 */
 
 /* 8. exercice-8 */
 
 /* 9. exercice-9 */
+/* 9. exercice-9 */
+.exercice-9 .container {
+  display: flex;
+  flex-flow: row wrap ;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.exercice-9 .element {
+  width: 50%;
+  box-sizing: border-box;
+}
 
 /* 10. exercice-10 */
 .exercice-10 .container {

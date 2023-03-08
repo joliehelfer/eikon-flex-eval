@@ -61,8 +61,9 @@
   justify-content: flex-end;
   align-content: space-between;
 }
-.exercie-6 .element-pink {
-flex-grow: 1;
+
+.exercice-6 .element-pink {
+  flex-grow: 1;
 }
 
 .exercice-6 .element-red {
@@ -73,13 +74,14 @@ flex-grow: 1;
   flex-grow: 1;
 }
 
-.exercice-6 .element-green {
+.exercice-6 .element-yellow {
   flex-grow: 1;
 }
 
-.exercice-6 .element-yellow {
-  flex-grow: 2;
+.exercice-6 .element-grey {
+  flex-grow: 1;
 }
+
 /* 7. exercice-7 */
 .exercice-7 .container {
   display: flex;
